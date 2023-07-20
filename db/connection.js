@@ -3,7 +3,7 @@ require("dotenv").config()
 const mongoose = require("mongoose");
 
 
-const connectionStr = "mongodb://0.0.0.0:27017/hallelujah"
+const connectionStr = "mongodb+srv://mark:mark@cluster0.ecmc4wf.mongodb.net/hallelujah-backend"
 
 
 mongoose.connect(connectionStr, { useNewUrlParser: true })

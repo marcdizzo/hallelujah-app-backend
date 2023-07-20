@@ -8,7 +8,7 @@ const server = http.createServer(app);
 const { Server } = require("socket.io");
 
 const io = new Server(server, {
-    cors: "http://localhost:3000",
+    cors: "https://hallelujah-ministries-app.onrender.com",
     methods: ["POST","GET","PATCH","DELETE"]
 })
 
